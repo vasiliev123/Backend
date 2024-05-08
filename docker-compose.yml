@@ -1,0 +1,5 @@
+services:
+  backend:
+    image: vasilievpl123/backend
+    ports:
+      - 5001:5001
