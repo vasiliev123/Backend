@@ -1,7 +1,7 @@
-def imageName = "10.2.2.44:8082/docker_registry/backend"
+def imageName = "vasilievpl123/backend"
 def dockerTag = ""
-def dockerRegistry = "http://10.2.2.44:8082"
-def registryCredentials = "artifactory"
+def dockerRegistry = ""
+def registryCredentials = "dockerhub"
 
 pipeline {
     agent {
